@@ -1,0 +1,297 @@
+/* start header*/
+#header_logo
+{
+	height: 100%;
+	width: 145px;
+	float: left;
+	padding-top: 19px;
+}
+
+#header_menu
+{
+	height: 100%;
+	background-color: orange;
+	width: 904px;
+	float: left;
+}
+
+
+#header_socials
+{
+	height: 100%;
+	float: right;
+	width: 180px;
+	padding-top: 19px;
+}
+
+#header_logo .content_logo
+{
+	height: 40px;
+	width: 107px;
+}
+
+#header_socials .content_socials
+{
+	height: 44px;
+	width: 180px;
+}
+
+.content_socials .twitter
+{
+	border-radius: 50%;
+	background-color: #00abef;
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-left: 6px;
+	color: #fff;
+}
+
+.content_socials .facebook
+{
+	border-radius: 50%;
+	background-color: #507cbe;
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-left: 6px;
+	color: #fff;
+}
+
+.content_socials .google
+{
+	border-radius: 50%;
+	background-color: #d93e2d;
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-left: 6px;
+	color: #fff;
+}
+
+
+.facebook:before
+{
+	height: 14px;
+	width: 14px;
+  font-family: "Font Awesome 5 Free";
+   content: "\f001";
+   display: inline-block;
+   font-weight:900;
+    padding-top: 25%;
+    padding-left: 32%;
+}
+
+.twitter:before
+{
+	height: 14px;
+	width: 14px;
+  font-family: "Font Awesome 5 Free";
+   content: "\f002";
+   display: inline-block;
+   font-weight:900;
+    padding-top: 25%;
+    padding-left: 32%;
+}
+
+
+
+#menu_home
+{
+	height: 100%;
+    width: 55.47px;
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+#menu_pages
+{
+	height: 100%;
+    width: 68.92px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#menu_team
+{
+	height: 100%;
+    width: 63.42px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#menu_services
+{
+	height: 100%;
+    width: 92.56px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#menu_features
+{
+	height: 100%;
+    width: 96.38px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#menu_gallery
+{
+	height: 100%;
+    width: 87.27px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#menu_blog
+{
+	height: 100%;
+    width: 60.19px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#menu_shop
+{
+	height: 100%;
+    width: 62.3px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#menu_contact
+{
+	height: 100%;
+    width: 81.81px;
+    background-color: antiquewhite;
+    text-align: right;
+}
+
+
+@font-face {
+    font-family: 'a';
+    src: url('../font/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2'); 
+}
+
+@font-face {
+    font-family: 'b';
+    src: url('../font/KFOkCnqEu92Fr1MmgVxIIzI.woff2'); 
+}
+
+
+@font-face {
+    font-family: 'c';
+    src: url('../font/KFOlCnqEu92Fr1MmEU9fBBc4.woff2'); 
+}
+
+@font-face {
+    font-family: 'd';
+    src: url('../font/KFOlCnqEu92Fr1MmSU5fBBc4.woff2'); 
+}
+
+@font-face {
+    font-family: 'e';
+    src: url('../font/KFOlCnqEu92Fr1MmWUlfBBc4.woff2'); 
+}
+
+@font-face {
+    font-family: 'f';
+    src: url('../font/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2'); 
+}
+
+/*detail menu*/
+#menu_home ul
+{
+    width: 288px;
+    height: 459px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+/*.header_menu_property_ul_li_ul_li
+{
+	width: 100%;
+	height: 50px;
+    text-align: left;
+}*/
+
+.header_menu_property_a
+{
+	width: 208px;
+    height: 50px;
+    position: absolute;
+    padding-top: 10px;
+    color: #102035;
+    padding-bottom: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+.header_menu_property_a_span
+{
+	position: absolute;
+    padding-top: 6px;
+    color: #102035;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#menu_pages > ul
+{
+    width: 288px;
+    height: 559px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+#menu_pages_shortcodes__widgets ul
+{
+    width: 288px;
+    height: 609px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+
+.menu_pages_ul_ul
+{
+    display: block;
+}
+
+.centent_ul_shortcodes_widgets
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 609px;
+    margin-left: 315px;
+}
+
+.header_menu_property_a_span_span
+{
+    position: absolute;
+    padding-top: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*end menu*/
+
+/*end header
