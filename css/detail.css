@@ -128,6 +128,32 @@
     text-align: center;
 }
 
+#menu_services > ul
+{
+    width: 288px;
+    height: 159px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+#menu_features > ul
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 1px;
+    right: 0;
+    width: 1140px !important;
+    z-index: 1;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding: 30px 0;
+    height: 508px;
+}
+
 #menu_features
 {
 	height: 100%;
@@ -234,6 +260,28 @@
     opacity: 0.9;
 }
 
+.menu_features_property_a
+{
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    padding-top: 10px;
+    color: #737880;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    background-color: transparent;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.menu_features_property_a_span
+{
+    position: relative;
+    top: 20%
+}
 .header_menu_property_a_span
 {
 	position: absolute;
@@ -254,6 +302,16 @@
     margin: 0px;
 }
 
+#menu_team > ul
+{
+    width: 288px;
+    height: 209px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;
+}
+
 #menu_pages_shortcodes__widgets ul
 {
     width: 288px;
@@ -264,6 +322,45 @@
     margin: 0px;
 }
 
+#menu_gallery > ul
+{
+    width: 288px;
+    height: 459px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;  
+}
+
+#menu_blog > ul
+{
+    width: 288px;
+    height: 359px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;  
+}
+
+#menu_shop > ul
+{
+    width: 288px;
+    height: 359px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;  
+}
+
+#menu_contact > ul
+{
+    width: 288px;
+    height: 259px;
+    position: absolute;
+    top: 100px;
+    list-style-type: none;
+    margin: 0px;  
+}
 
 .menu_pages_ul_ul
 {
@@ -281,6 +378,52 @@
     margin-left: 315px;
 }
 
+/*page events*/
+.centent_ul_events
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 309px;
+    margin-left: 315px;
+}
+
+.centent_ul_coming_soon
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 159px;
+    margin-left: 315px;
+}
+
+.centent_ul_faq
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 159px;
+    margin-left: 315px;
+}
+
+.centent_ul_services
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 159px;
+    margin-left: 315px;
+}
+
+
 .header_menu_property_a_span_span
 {
     position: absolute;
@@ -290,6 +433,104 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.features.li.one
+{
+    height: 448px;
+}
+
+.features.li.two
+{
+    height: 448px;
+}
+
+.features.li.three
+{
+    height: 348px;
+}
+.features.li.four
+{
+    height: 198px;
+}
+
+.features.li.five
+{
+    height: 398px;
+}
+
+/*gallery*/
+#menu_gallery_regular > ul
+{
+    height: 259px; 
+}
+
+#menu_gallery_full_width > ul
+{
+    height: 209px; 
+}
+
+#menu_gallery_extended > ul
+{
+    height: 209px; 
+}
+
+#menu_gallery_carousel > ul
+{
+    height: 209px; 
+}
+
+#menu_gallery_left_sidebar > ul
+{
+    height: 159px; 
+}
+
+#menu_gallery_right_sidebar > ul
+{
+    height: 159px; 
+}
+
+#menu_gallery_item > ul
+{
+    height: 209px; 
+}
+
+#menu_blog_post > ul
+{
+    height: 209px; 
+}
+
+/*.content_ul_gallery_regular
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 259px;
+    margin-left: -329px;
+}
+
+.content_ul_gallery_full_width
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 209px;
+    margin-left: -329px;
+}
+
+.content_ul_gallery_extended
+{
+    background-color: #102035;
+    list-style-type: none;
+    position: absolute;
+    width: 288px;
+    top: -30px;
+    height: 209px;
+    margin-left: -329px;
+}*/
 
 
 /*end menu*/
