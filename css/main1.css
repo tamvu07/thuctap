@@ -79,17 +79,7 @@
     text-transform: uppercase;
 }
 
-.google:before
-{
-	height: 14px;
-	width: 14px;
-  font-family: "Font Awesome 5 Free";
-   content: "\f000";
-   display: inline-block;
-   font-weight:900;
-    padding-top: 25%;
-    padding-left: 32%;
-}
+
 
 .features.li
 {

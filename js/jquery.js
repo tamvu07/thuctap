@@ -172,6 +172,128 @@ $('#menu_features').children("ul").children("li").children("ul").children("li").
 
  	});
 
+$('.socials_img').children("h4").mouseenter(function(){
+	$(this).css({"opacity":"0.5"});
+	$(this).children("a").css({"text-decoration":"none"});
+	$(this).mouseleave(function(){
+		$(this).css({"opacity":"1"});
+	});
+});
+
+$('.social_footer_content_img_corver_1').mouseenter(function(){
+
+ 	$(this).children("div").children("a").children("img").css({"filter":"grayscale(0%)","opacity":"1"});
+
+	$(this).mouseleave(function(){
+		$(this).children("div").children("a").children("img").css({"filter":"grayscale(100%)","opacity":"0.5"});
+	});
+});
+
+// dang lam
+$('.twitter_ourteam').mouseenter(function(){
+
+ 	$(this).css({"background-color":"rgb(234, 233, 241)","color":"#00abef"});
+
+	$(this).mouseleave(function(){
+		$(this).css({"background-color":"#00abef","color":"#fff"});
+	});
+});
+
+$('.facebook_ourteam').mouseenter(function(){
+
+ 	$(this).css({"background-color":"rgb(234, 233, 241)","color":"#337ab7"});
+
+	$(this).mouseleave(function(){
+		$(this).css({"background-color":"#337ab7","color":"#fff"});
+	});
+});
+
+$('.google_ourteam').mouseenter(function(){
+
+ 	$(this).css({"background-color":"rgb(234, 233, 241)","color":"#D93E2D"});
+
+	$(this).mouseleave(function(){
+		$(this).css({"background-color":"#D93E2D","color":"#fff"});
+	});
+});
+
+
+$('.footer_content_right').children("div").children("ul").children("li").mouseenter(function(){
+
+ 	$(this).children("a").css({"color":"#2b82a7"});
+
+	$(this).mouseleave(function(){
+		$(this).children("a").css({"color":"#37aadb"});
+	});
+});
+
+$('.show_img_person').children("div").not(".person_2").children("div").mouseenter(function(){
+
+ 	$(this).children("img").css({"filter":"grayscale(0%)"});
+
+	$(this).mouseleave(function(){
+		$(this).children("img").css({"filter":"grayscale(100%)"});
+	});
+});
+
+$('.detail').children(".round").mouseenter(function(){
+
+ 	$(this).children("i").css({"opacity":"0.5"});
+
+	$(this).mouseleave(function(){
+		$(this).children("i").css({"opacity":"1"});
+	});
+});
+
+$('.meet_our_team_content_img_footer').children(".hai").mouseenter(function(){
+
+ 	$(this).css({"color":"#cb5151"});
+
+	$(this).mouseleave(function(){
+		$(this).css({"color":"#102035"});
+	});
+});
+
+$('.content_column_4').children("div").children("a").mouseenter(function(){
+	
+ 	$(this).css({"color":"#e2d9d9"});
+
+	$(this).mouseleave(function(){
+		$(this).css({"color":"#fff"});
+	});
+});
 
 });
 
+
+$('.choose_menu .pages_children_div_2 .right').click(function() {
+	transformSliderGallery('right')
+})
+$('.choose_menu .pages_children_div_2 .float').click(function() {
+	transformSliderGallery('left')
+})
+
+function transformSliderGallery(direction) {
+	var selectorSlider = $('.choose_menu .pages_children_div_1 > div');
+	var nextImageWidthStep = 360;
+	if (!selectorSlider.attr('data-transform')) {
+		selectorSlider.attr('data-transform', 0)
+	}
+	var currentPositionImageTransform = Number(selectorSlider.attr('data-transform'));
+	
+	if (direction == 'right') {
+		nextTransform = currentPositionImageTransform + nextImageWidthStep;
+		selectorSlider.css("transform", "translateX(-"+nextTransform+"px)")
+	} else {
+		nextTransform = currentPositionImageTransform - nextImageWidthStep;
+		if (nextTransform < 0) {
+			nextTransform = -nextTransform;
+			selectorSlider.css("transform", "translateX("+nextTransform+"px)")
+		} else {
+			selectorSlider.css("transform", "translateX(-"+nextTransform+"px)")
+		}
+		
+	}
+	
+	selectorSlider.attr('data-transform', nextTransform)
+}
